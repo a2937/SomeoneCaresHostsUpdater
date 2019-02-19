@@ -1,4 +1,4 @@
-#SomeoneCaresHostsFileUpdater
+# SomeoneCaresHostsFileUpdater
 
 This program automatically updates your hosts file with the one maintained
 at https://someonewhocares.org/. For those unaware with SomeoneWhoCares, it is a 
@@ -34,7 +34,6 @@ the correct location of the hosts file will be created at a later date.
 ## Built With
 
 * [Moq](https://github.com/Moq/moq4/wiki) - The testing framework used
-* 
 
 ## Authors
 
