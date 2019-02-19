@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostsDownloaderWindows", "HostsDownloaderWindows\HostsDownloaderWindows.csproj", "{39AA12EA-8779-4761-A171-BB7180E73D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostsDownloaderUnitTestProject", "HostsDownloaderUnitTestProject\HostsDownloaderUnitTestProject.csproj", "{EE4B28C4-69BC-4157-9AE2-A72C544F072E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39AA12EA-8779-4761-A171-BB7180E73D83} = {39AA12EA-8779-4761-A171-BB7180E73D83}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39AA12EA-8779-4761-A171-BB7180E73D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39AA12EA-8779-4761-A171-BB7180E73D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39AA12EA-8779-4761-A171-BB7180E73D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39AA12EA-8779-4761-A171-BB7180E73D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4B28C4-69BC-4157-9AE2-A72C544F072E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4B28C4-69BC-4157-9AE2-A72C544F072E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4B28C4-69BC-4157-9AE2-A72C544F072E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4B28C4-69BC-4157-9AE2-A72C544F072E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD50BC85-8977-4052-B899-5B5C13F34415}
+	EndGlobalSection
+EndGlobal
