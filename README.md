@@ -1,4 +1,4 @@
-#SomeoneCaresHostsFileUpdater
+# SomeoneCaresHostsFileUpdater
 
 This program automatically updates your hosts file with the one maintained
 at https://someonewhocares.org/. For those unaware with SomeoneWhoCares, it is a 
