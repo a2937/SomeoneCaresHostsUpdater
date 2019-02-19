@@ -34,7 +34,6 @@ the correct location of the hosts file will be created at a later date.
 ## Built With
 
 * [Moq](https://github.com/Moq/moq4/wiki) - The testing framework used
-* 
 
 ## Authors
 
